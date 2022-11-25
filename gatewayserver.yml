@@ -1,4 +1,12 @@
 #gatewayserver properties file
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+          
 server:
   port: 8072
   
